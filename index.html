@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <h1>Energy Counter:</h1>
+        <h1 id="round-el">Round 1</h1>
+        <h2 id="energy-el">3</h2>
+        <h3>Energy Used:</h3>
+        <button class="decrement-btn" onclick="minusEnergyUsed()"><span>-</span></button>
+        <label class="energy" id="currentEnergyUsed">0</label>
+        <button class="increment-btn" onclick="addEnergyUsed()"><span>+</span></button><br>
+        <h3>Energy Gained:</h3>
+        <button class="decrement-btn" onclick="minusEnergyGained()"><span>-</span></button>
+        <label class="energy" id="currentEnergyGained">0</label>
+        <button class="increment-btn" onclick="addEnergyGained()"><span>+</span></button><br>
+        <h3>Energy Destroyed:</h3>
+        <button class="decrement-btn" onclick="minusEnergyDestroyed()">
+        <span>-</span></button>
+        <label class="energy" id="currentEnergyDestroyed">0</label>
+        <button class="increment-btn" onclick="addEnergyDestroyed()"><span>+</span></button><br>
+        <button class="endTurn-btn" onclick="endTurn()">End Turn</button><br>
+        <button class="reset-btn" onclick="reset()">Reset</button>
+       
+    </div>
+    <div class="left-widget">
+        <div class="score">
+            <div id="win-wrap" class="floating-item">
+                <button id="win-btn" class="floating-btn" onclick="winScore()">W</button>
+                <label id="win-txt">0</label>
+            </div>
+            <div id="lose-wrap" class="floating-item">
+                <button id="lose-btn" class="floating-btn" onclick="loseScore()">L</button>
+                <label id="lose-txt">0</label>
+            </div>
+            <div id="draw-wrap" class="floating-item">
+                <button id="draw-btn" class="floating-btn" onclick="drawScore()">D</button>
+                <label id="draw-txt">0</label>
+            </div>
+            <div id="clear-wrap" class="floating-item">
+                <button id="clear-btn" class="floating-btn" onclick="clearScore()">
+                    <i class="fa fa-refresh"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+        
+        <script src="index.js"></script>
+</body>
+</html>

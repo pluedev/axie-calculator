@@ -1,0 +1,136 @@
+body {
+    text-align: center;
+    background-image: url("image/a.png");
+    background-size: cover;
+}
+.container {
+    height: fit-content;
+    padding-bottom: 200px;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+    font: bold;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h3 {
+    color: white;
+}
+.increment-btn {
+    background: #30bfe2;
+    border: 6px solid #5D330B;
+    border-radius: 10px;
+    height: 70px;
+    width: 70px;
+    color: white;
+    font-family: fantasy;
+    font-size: 54px;
+    line-height: 70px;
+    cursor: pointer;
+}
+.decrement-btn {
+    background: #EF3663 ;
+    border: 6px solid #5D330B;
+    border-radius: 10px;
+    height: 70px;
+    width: 70px;
+    color: white;
+    font-family: Fantasy;
+    font-size: 54px;
+    line-height: 70px;
+    cursor: pointer;
+}
+span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    height: 34px;
+    margin-top: -55px;
+}
+.endTurn-btn {
+    width: 80%;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1;
+    background: #db9f1d;
+    text-shadow: 2px 4px 0px #8e6f6f;
+    margin-top: 0.5rem;
+    border: 6px solid #5D330B;
+    border-radius: 10px;
+    color: white;
+    font-family: fantasy;
+}
+.energy {
+    color: white;
+    font-family: fantasy;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.reset-btn {
+    width: 80%;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1;
+    background: #EF3663;
+    text-shadow: 2px 4px 0px #8e6f6f;
+    margin-top: 0.5rem;
+    border: 6px solid #5D330B;
+    border-radius: 10px;
+    color: white;
+    font-family: fantasy;
+}
+.floating-btn {
+    background: red;
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0.5rem;
+    border: 4px solid #5d330b;
+    border-radius: 0px 10px 10px 0px;
+    font-family: "Fredoka One";
+}
+.left-widget {
+    position: absolute;
+    top: 40px;
+    left: -5px;
+}
+.floating-item {
+    display: flex;
+    align-items: center;
+}
+.floating-item label {
+    background: #5d330b99;
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+.floating-item label {
+    display: block;
+    margin-left: 0.5rem;
+    margin-top: -11px;
+    color: white;
+}
+button#win-btn {
+    background-color: #30bfe2;
+}
+button#lose-btn {
+    background-color: #EF3663;
+}
+button#draw-btn {
+    background-color: #a1a0a0;
+}
+button#clear-btn {
+    background-color: #db9f1d;
+}
+
